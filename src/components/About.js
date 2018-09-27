@@ -9,6 +9,10 @@ const about = () => {
           I have a deep love for Jazz and am a fairly accomplished guitar player - although there is always more to learn.
           
         </p>
+        
+        <p>
+          Lately, I've taken up MERN Stack Web Development and am just starting to find my groove - I hope you'll follow me on this journey
+        </p>
    
       </div>
     </div>
