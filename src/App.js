@@ -1,15 +1,14 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import logo from './logo.svg';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
 import Home from './components/Home';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Music from './components/Music';
 import Hockey from './components/Hockey';
 import Webdev from './components/Webdev'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
        class App extends Component {
   render() {
