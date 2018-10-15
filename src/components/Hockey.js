@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import EAimage from './publicimages/sponsored-white.png';
 
 class Hockey extends Component {
 
@@ -12,10 +13,11 @@ render(){
   return (
     <div>
       <h3>Here are some of my Hockey Creative Outlets</h3>
-      <div className="container">
           <button type="button" className="btn btn-info" onClick={ this.refreshPage }> <span>EMBED TWEETS!</span> </button> 
         <div className="row music-row">
           <div className="col-6">
+      <div className="container">
+      <image src={EAimage} alt="ea image"></image>
           <a className="twitter-timeline" href="https://twitter.com/TheDeJtv?ref_src=twsrc%5Etfw">Tweets by TheDeJtv</a>
 
           </div>
