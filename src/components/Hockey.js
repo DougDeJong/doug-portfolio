@@ -17,7 +17,7 @@ render(){
         <div className="row music-row">
           <div className="col-6">
       <div className="container">
-      <image src={EAimage} alt="ea image"></image>
+      <image src={EAimage} alt="ea image"/>
           <a className="twitter-timeline" href="https://twitter.com/TheDeJtv?ref_src=twsrc%5Etfw">Tweets by TheDeJtv</a>
 
           </div>
