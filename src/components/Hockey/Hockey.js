@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import EAimage from './publicimages/sponsored-white.png';
+import EAimage from './sponsored-white.png'
 
 class Hockey extends Component {
 
@@ -17,11 +17,11 @@ render(){
         <div className="row music-row">
           <div className="col-6">
       <div className="container">
-      <image src={EAimage} alt="ea image"/>
           <a className="twitter-timeline" href="https://twitter.com/TheDeJtv?ref_src=twsrc%5Etfw">Tweets by TheDeJtv</a>
 
           </div>
           <div className="col-6">
+      <image src={EAimage} alt="ea image"/>
 
           <div id="twitch-embed"></div>
 

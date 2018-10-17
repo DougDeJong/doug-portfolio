@@ -4,7 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Music from './components/Music';
-import Hockey from './components/Hockey';
+import Hockey from './components/Hockey/Hockey';
 import Webdev from './components/Webdev'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
@@ -17,10 +17,10 @@ import './App.css';
       <Navbar />
        <Switch>
          <Route exact path ="/" component={Home}/>
-         <Route path ="/about" component={About}/>
-         <Route path ="/music" component={Music}/>
-         <Route path ="/hockey" component={Hockey}/>
-         <Route path ="/webdev" component={Webdev}/> 
+         <Route exact path ="/about" component={About}/>
+         <Route exact path ="/music" component={Music}/>
+         <Route exact path ="/hockey" component={Hockey}/>
+         <Route exact path ="/webdev" component={Webdev}/> 
        </Switch> 
       </div>
     );
